@@ -1,0 +1,21 @@
+.banner{
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/5987212/pexels-photo-5987212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        @media (max-width:768px) {
+            
+            width: 200px;
+            height: 200px;
+        }
+    }
+    @media (max-width:768px) {
+        height:300px;
+    }
+}
